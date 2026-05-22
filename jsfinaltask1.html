@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Page</title>
+    <link rel="stylesheet" href="./jsfinal1.css">
+</head>
+<body>
+    
+<div class="top-section">
+     <h1 class="logo">
+        Amazin
+    </h1>
+
+    <button onclick="filterCategory('electronics')">
+    Electronics
+</button>
+
+<button onclick="filterCategory('jewelery')">
+    Jewelery
+</button>
+
+<button onclick="filterCategory(`men's clothing`)">
+    Men's Clothing
+</button>
+
+<button onclick="filterCategory(`women's clothing`)">
+    Women's Clothing
+</button>
+
+<button onclick="showProducts(allProducts)">
+    All
+</button>
+
+
+    <div class="right-section">
+
+        <input type="text"
+               class="search"
+               placeholder="Search Products">
+
+       <div class="cart-box">
+    🛒 Cart:
+    <span class="cart-count">0</span>
+</div>
+
+    </div>
+
+</div>
+   
+
+    <h1 class="loading">Loading...</h1>
+     <h2 class="total">
+        Total = $0
+    </h2>
+       
+     <div class="card"></div>
+
+
+
+    <script src="./jsfinal1.js"></script>
+</body>
+</html>
